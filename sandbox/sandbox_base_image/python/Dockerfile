@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bookworm
+FROM python:3.14.1-slim-bookworm
 
 COPY --from=ghcr.io/astral-sh/uv:0.7.5 /uv /uvx /bin/
 ENV UV_INDEX_URL=https://pypi.tuna.tsinghua.edu.cn/simple
